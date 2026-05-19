@@ -16,5 +16,12 @@ pnpm-debug.log*
 .vscode/*
 !.vscode/extensions.json
 
+# Lint cache
+.eslintcache
+
+# Storybook
+*storybook.log
+storybook-static
+
 # TypeScript incremental build artefacts
 *.tsbuildinfo
