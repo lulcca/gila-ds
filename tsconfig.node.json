@@ -1,6 +1,6 @@
 {
   "extends": "@tsconfig/node24/tsconfig.json",
-  "include": ["eslint.config.*", ".storybook/**/*.ts"],
+  "include": ["eslint.config.*", "vitest.config.*", ".storybook/**/*.ts"],
   "compilerOptions": {
     "module": "preserve",
     "moduleResolution": "bundler",

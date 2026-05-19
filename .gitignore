@@ -23,5 +23,11 @@ pnpm-debug.log*
 *storybook.log
 storybook-static
 
+# Test coverage
+coverage
+
 # TypeScript incremental build artefacts
 *.tsbuildinfo
+
+# Vite config reload timestamps (Vite powers Storybook and Vitest under the hood)
+*.timestamp-*-*.mjs
